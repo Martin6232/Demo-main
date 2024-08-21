@@ -32,7 +32,9 @@ function dropButton(e) {
 
     // Añadir una explicación de cómo funciona el código
     const explanation = document.createElement('p');
-    explanation.textContent = `Este código representa un botón con la etiqueta <button>. El atributo 'draggable="true"' permite que el botón se arrastre, y 'data-code' contiene el código HTML que será mostrado al arrastrar y soltar el botón.`;
+    explanation.textContent = `    Este código representa un botón con la etiqueta <button>.
+    El atributo 'draggable="true"' permite que el botón se arrastre, y 'data-code'
+    contiene el código HTML que será mostrado al arrastrar y soltar el botón.`;
 
     codeBlock.appendChild(explanation);
 }
